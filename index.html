@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Life RPG</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="panel">
+
+    <!-- Profil -->
+    <div class="profil">
+        <h2>Karakter</h2>
+        <p>Level: <span id="level">1</span></p>
+        <p>XP: <span id="xp">0</span></p>
+    </div>
+
+    <!-- Görevler -->
+    <div class="gorevler">
+
+        <h2>Görevler</h2>
+
+        <input id="gorevInput" type="text" placeholder="Görev yaz">
+        <button onclick="gorevEkle()">Görev Ekle</button>
+
+        <div id="gorevListesi"></div>
+
+    </div>
+
+    <!-- Başarımlar -->
+    <div class="basarim">
+        <h2>Başarımlar</h2>
+        <p>Daha fazla görev yaparak level atla</p>
+        <p>Seviye 10 ol</p>
+        <p>10 Görev Tamamla</p>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
